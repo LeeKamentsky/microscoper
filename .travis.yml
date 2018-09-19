@@ -12,6 +12,8 @@ install:
   - conda create -q -n test-environment python=3.6
   - source activate test-environment
   - conda install -c anaconda cython
+  - /usr/libexec/java_home
+  - /usr/libexec/java_home --arch x86_64
   - pip install --progress-bar off -e .
 script:
   - microscoper
