@@ -14,6 +14,8 @@ install:
   - conda install -c anaconda cython
   - /usr/libexec/java_home
   - /usr/libexec/java_home --arch x86_64
+  - ls /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/jre/lib
+  - ls /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/jre/lib/server
   - pip install --progress-bar off -e .
 script:
   - microscoper
