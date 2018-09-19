@@ -16,6 +16,7 @@ install:
   - /usr/libexec/java_home --arch x86_64
   - ls /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home
   - ls /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib
+  - ls /Library/Java/Home/jre/lib
   - pip install --progress-bar off -e .
 script:
   - microscoper
