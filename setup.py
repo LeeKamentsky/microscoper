@@ -9,7 +9,7 @@ setup(name="microscoper",
       author_email="pskesavan@tifrh.res.in",
       packages=["microscoper"],
       entry_points={
-          "console_scripts": [
+          "gui_scripts": [
               "microscoper=microscoper.io:run"
           ]
       },
