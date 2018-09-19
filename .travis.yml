@@ -12,5 +12,7 @@ install:
   - conda create -q -n test-environment python=3.6
   - source activate test-environment
   - conda install -c anaconda cython
+  - pip install -r requirements.txt
+  - pip install --progress-bar off -e .
 script:
   - microscoper
